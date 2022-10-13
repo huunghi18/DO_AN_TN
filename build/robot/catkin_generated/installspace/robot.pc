@@ -1,0 +1,8 @@
+prefix=/home/iotlabsv1/Desktop/DO_AN_TN/install
+
+Name: robot
+Description: Description of robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
