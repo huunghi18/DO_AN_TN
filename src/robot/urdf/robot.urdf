@@ -17,10 +17,10 @@
     <link name="link1">
         <visual>
             <geometry>
-                <cylinder radius="0.05" length="0.03"/>
+                <cylinder radius="0.06" length="0.03"/>
             </geometry>
 
-            <origin xyz="0 0 0" rpy="0 0.0 0.0"/>
+            <origin xyz="0 0 0" rpy="1.6 0.0 0.0"/>
             <material name="green">
                 <color rgba="0.7 0.5 1.0 0.2"/>
                  
@@ -32,7 +32,7 @@
         <origin xyz="0.13 0.12 0.0" rpy="0.0 0.0 0.0"/>
         <parent link="base_link"/>
         <child link="link1"/>
-        <axis xyz="0 1 0"/>  
+        <axis xyz="0.0 1.0 0.0"/>  
     </joint>
     
 </robot>
